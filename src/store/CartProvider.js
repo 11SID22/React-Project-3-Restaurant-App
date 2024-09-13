@@ -14,7 +14,7 @@ const CartProvider = (props) => {
             const updatedAmount = prevTotal + item.price * item.quantity;
             return updatedAmount;
         });
-        
+
         console.log('inside addItemToCartHandler', cartContext)
     };
 
