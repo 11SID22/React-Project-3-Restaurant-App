@@ -9,7 +9,7 @@ const HeaderCardButton = (props) => {
     const cartCtx = useContext(CartContext);
 
     let quantity = 0;
-     cartCtx.items.forEach(item=> {
+     cartCtx.items.forEach(item => {
         quantity = quantity + Number(item.quantity)
     })
     
